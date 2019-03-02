@@ -255,7 +255,7 @@ memDC.CopyDataFrom data         'Copy image data from data, where data is a Byte
 
 ## `CopyDataTo` function
 
-`CopyDataFrom` function copies data from the memory DC to a Byte array.
+`CopyDataTo` function copies data from the memory DC to a Byte array.
 
 ### Definition
 
