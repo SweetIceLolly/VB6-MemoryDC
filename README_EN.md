@@ -83,7 +83,7 @@ Public Function CreateMemDC(ByVal iWidth As Long, ByVal iHeight As Long, _
 
 `iBitCount`: Optional, Integer, the color bit count of the memory DC being created. Default is 16 bit.
 
-`FromHdc`: Optional, Long, the source DC handle.
+`FromHdc`: Optional, Long, the source DC handle. Default is 0.
 
 ### Return value
 
