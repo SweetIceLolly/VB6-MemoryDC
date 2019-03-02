@@ -108,8 +108,8 @@ Public Property Get lpBitData() As Long
 End Property
 
 'To create memory DC
-'Args:   Width, Height: Width and height of the memory DC£¨In pixels£©, respectively
-'        BitCount: Color bit count£¬can be 0, 1, 4, 8, 16, 24, 32. For jpg or png format, color bit should be 0
+'Args:   Width, Height: Width and height of the memory DCÂ£Â¨In pixelsÂ£Â©, respectively
+'        BitCount: Color bit countÂ£Â¬can be 0, 1, 4, 8, 16, 24, 32. For jpg or png format, color bit should be 0
 '        hDCfrom: Create DC that compatibles to the specified DC, default = 0
 '
 'Return: True if succeed, False if failed
@@ -172,7 +172,7 @@ Public Function BitBltFrom(FromHdc As Long, FromX As Long, FromY As Long, _
     End If
 End Function
 
-'To paoint to the specified DC (Me -> Others)
+'To paint to the specified DC (Me -> Others)
 'Args:   ToHdc: Specific a DC handle
 '        ToX, ToY: X, Y position of the target, respectively
 '        FromX, FromY: X, Y position of the created DC, respectively
