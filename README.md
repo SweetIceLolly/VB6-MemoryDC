@@ -33,7 +33,7 @@ memDC.BitBltFrom YourDC, FromX, FromY, ToX, ToY, image_width, image_height
 
 对于函数 `BitBltFrom`，请参考“函数说明”部分中对于它的描述。
 
-## 绘图到其他的DX
+## 绘图到其他的DC
 
 从内存图绘制图像到其他DC，只需要
 ```VBS
