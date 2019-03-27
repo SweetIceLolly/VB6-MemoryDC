@@ -1,4 +1,6 @@
 # VB6 MemoryDC
+ [English Version](README_EN.md)
+
 一个VB6编写的内存图类，让你可以更简单的操作内存图。
 
 # 使用方法
