@@ -223,7 +223,7 @@ Public Function BitBltTo(ToHdc As Long, ToX As Long, ToY As Long, _
 
 如果图像成功绘制，则函数返回`True`。否则，函数返回`False`。
 
-### Examples
+### 例子
 
 ```VBS
 memDC.BitBltTo frmMain.hDC, 0, 0, 0, 0, 100, 100      '绘制图像到 frmMain.hDC 句柄，从内存图像的(0, 0)绘制到窗体的(0, 0)，大小为 100 * 100
@@ -247,7 +247,7 @@ Public Sub CopyDataFrom(FromArray() As Byte)
 
 `FromArray`: Byte(), 指定一个Byte数组作为复制数据的来源。
 
-### Examples
+### 例子
 
 ```VBS
 memDC.CopyDataFrom data         '从 data 复制图像数据，其中 data 是一个 Byte 数组
